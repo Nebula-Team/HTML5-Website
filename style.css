@@ -1,1 +1,118 @@
+body {
+  margin: 0;
+  background-color: #f7f7f7;
+}
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  color: white;
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+span {
+  color: #ff5200;
+}
+nav {
+  display: inline;
+  position: absolute;
+  top: 35px;
+  bottom: 30px;
+  right: 50px;
+}
+ul {
+  margin: 0;
+  display: inline;
+  list-style-type: none;
+}
+li {
+  display: inline;
+  margin-left: 20px;
+}
+header a {
+  text-decoration: none;
+  color: white;
+}
+header a:hover {
+  color: #ff5200;
+}
+header {
+  background-color: #00263b;
+  border-bottom: solid;
+  border-color: #ff5200;
+  border-width: 5px;
+  position: relative;
+  height: 100px;
+  margin: 0;
+}
+.showcase {
+  position: relative;
+  text-align: center;
+}
+.showcase img {
+  width: 100%;
+  background-color: #00263b;
+  opacity: 0.8;
+}
+.showcase p {
+  color: white;
+  position: absolute;
+  top: 300px;
+  left: 200px;
+  font-size: 1.3rem;
+}
+.showcase h1 {
+  position: absolute;
+  top: 200px;
+  left: 300px;
+  font-size: 2.5rem;
+}
+.newsletter {
+  background-color: #00263b;
+  position: relative;
+  margin: 0;
+  height: 100px;
+}
+.newsletter h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  margin: 0;
+  position: absolute;
+  top: 30px;
+  left: 200px;
+  font-size: 1.6rem;
+}
+input {
+  position: absolute;
+  top: 32px;
+  right: 400px;
+  height: 20px;
+  width: 220px;
+}
+.buttom_1 {
+  position: absolute;
+  top: 30px;
+  right: 250px;
+  width: 120px;
+  height: 30px;
+  background-color: #ff5200;
+  border: none;
+  color: white;
+}
+footer {
+  background-color: #ff5200;
+  text-align: center;
+}
+footer p {
+  color: white;
+  padding: 30px;
+}
 
+#branding {
+  top: 30px;
+  bottom: 30px;
+  left: 50px;
+  position: absolute;
+}
