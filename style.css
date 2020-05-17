@@ -91,12 +91,30 @@ span {
   height: 10px;
   width: 200px;
 }
+/*boxes*/
+#boxes {
+  margin-top: 30px;
+  text-align: center;
+}
+#boxes .box {
+  float: left;
+  width: 30%;
+  margin-left: 20px;
+}
+#boxes .box .boxImg {
+  width: 30%;
+}
+#boxes .box p {
+  font-size: 15px;
+}
+
 /*footer*/
 footer {
   background-color: #ff5200;
   text-align: center;
+  padding: 30px;
 }
 footer p {
   color: white;
-  padding: 30px;
+  margin: 0;
 }
